@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.79.0">
+    <title>Checkout example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <link href="/css/form-validation.css" rel="stylesheet">
+        <link href="css/cover.css" rel="stylesheet">
+      </head>
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Les Film De Plein</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
+            <a class="nav-link" href="film.html">Film</a>
+            <a class="nav-link" href="actualite.html">Actualité</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="reservation.html">Réservation</a>
+          </nav>
+        </div>
+      </header>
+      <body class="bg-light">
+      
+    <div class="container">
+      <main>
+        <div class="py-5 text-center">
+          <h2>Inscription</h2>
+          <p class="lead">Pourquoi faudrait-il s'inscrire ? Cela nous permet d'anticiper le nombre de personnes qui l'événement peut accueillir et donc réagir en conséquence pour proposer par exemple une place assise pour tout le monde !</p>
+        </div>
+
+        <div class="row g-3">
+          
+          <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3">Inscrivez-vous ici !</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                </div>
+
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Prénom</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                </div>
+
+                <div class="col-12">
+                  <label for="username" class="form-label">Email</label>
+                  <div class="input-group">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="address" class="form-label">Adresse</label>
+                  <input type="text" class="form-control" id="address" placeholder="" required>
+                </div>
+
+                
+
+                <div class="col-md-3">
+                  <label for="zip" class="form-label">Code postal</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required>
+                </div>
+              </div>
+
+                <div class="col-md-3">
+                  <label for="zip" class="form-label">Nombres de personnes</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required>
+                </div>
+
+                <div class="col-md-4">
+                  <label for="state" class="form-label">Jour(s)</label>
+                  <select class="form-select" id="state" required>
+                    <option value="">Choisisez....</option>
+                    <option>5 Aout 2021</option>
+                    <option>6 Aout 2021</option>
+                    <option>7 Aout 2021</option>
+                    <option>8 Aout 2021</option>
+                  </select>
+                </div>
+              
+              <hr class="my-4">
+
+              <button class="w-100 btn btn-primary btn-lg" type="submit">Inscription !</button>
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2021 Les Film En Plein Air</p>
+      </footer>
+    </div>
+  </body>
+</html>
