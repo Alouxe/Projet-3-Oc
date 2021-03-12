@@ -57,6 +57,57 @@ body {
 }
 
 
+/* Page film */
+
+.body_film {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.group_film {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  border: #f4f4a3ff 4px;
+  border-style: solid;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.text_film p {
+  padding: 10px;
+}
+
+.film {
+  width: 30%;
+  padding: 10px;
+  border: rgb(197, 197, 197) 2px ;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.img_film {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img_film img {
+  width: 80%;
+}
+
+.film_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
 /* Page Contact */
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
