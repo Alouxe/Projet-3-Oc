@@ -47,14 +47,68 @@ body {
 
 /* Page accueil */
 
-.img_acceuil {
-	width: 80%;
-	height: 250px;
+.body_accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.img_acceuil img{
-	width: 100%
+.title_accueil {
+  width: 80%;
+  padding: 60px;
 }
+
+.title_accueil p {
+  padding: 0px 100px 0px 100px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.top_accueil {
+  display: flex;
+  flex-direction: row;
+}
+
+.img_accueil {
+	width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.img_accueil img{
+	width: 80%
+}
+
+.pres_prog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+  border: #f4f4a3ff 3px;
+  border-style: solid;
+  margin: 20px;
+}
+
+.presentation {
+  width: 40%;
+
+}
+
+.presentation p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.prog {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-between;
+  padding: 25px;
+}
+
 
 
 /* Page film */
@@ -79,6 +133,8 @@ body {
 
 .text_film p {
   padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .film {
@@ -106,6 +162,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   
+}
+
+.voirplus a {
+  text-decoration: none;
+  color: #313131ff;
 }
 
 /* Page Contact */
