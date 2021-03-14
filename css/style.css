@@ -80,10 +80,10 @@ body {
 	width: 80%
 }
 
-.pres_prog {
+.pres_actu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   width: 90%;
   padding: 20px;
   border: #f4f4a3ff 3px;
@@ -93,23 +93,42 @@ body {
 
 .presentation {
   width: 40%;
-
-}
-
-.presentation p {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.prog {
-  display: flex;
-  flex-direction: row;
-  width: 40%;
-  justify-content: space-between;
   padding: 25px;
 }
 
 
+.presentation p {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0px 40px 0px 40px;
+}
+
+.actualite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  padding: 25px;
+}
+
+.actualite_title h4, h2 {
+  margin: 0;
+}
+
+.group_actu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px 0px 40px ;
+}
+
+.group_actu div {
+  width: 40%;
+}
+
+.text_actu p {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 /* Page film */
 
@@ -314,12 +333,12 @@ textarea {
 
 :-moz-placeholder { 
 	color: #313131ff;
-	opacity: 1;
+	opacity: 0.5;
 }
 
 ::-moz-placeholder {
 	color: #313131ff;
-	opacity: 1;
+	opacity: 0.5;
 }
 
 :-ms-input-placeholder {
@@ -389,3 +408,82 @@ textarea {
     font-size: 0.875em;
   }
 }
+
+/* Page réservation */
+
+.container_resa {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box_resa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+  margin: 50px 0px 50px 0px;
+  padding: 30px;
+  border: solid #313131ff 3px;
+}
+
+.input_resa {
+  width: 40%;
+}
+
+.group_day {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#day {
+  margin-left: 30px;
+}
+
+.film_group{
+  width: 100%;
+}
+
+.film_resa {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.film_checkbox {
+  margin: 0px 20px 20px 0px;
+}
+
+.button_resa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button_resa button {
+  background: none;
+  border: solid 2px #313131ff;
+  color: #d10000ff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button_resa button:hover {
+  background: #d10000ff;
+  color: #F2F3EB;
+}
+
