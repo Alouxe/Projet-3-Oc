@@ -418,6 +418,10 @@ textarea {
   align-items: center;
 }
 
+.container_resa h2 {
+  margin-top: 50px;
+}
+
 .box_resa {
   display: flex;
   flex-wrap: wrap;
